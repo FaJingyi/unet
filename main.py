@@ -3,7 +3,7 @@ from data import *
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-
+#图片预处理https://keras-cn.readthedocs.io/en/latest/preprocessing/image/
 data_gen_args = dict(rotation_range=0.2,
                     width_shift_range=0.05,
                     height_shift_range=0.05,
